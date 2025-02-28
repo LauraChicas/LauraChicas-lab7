@@ -33,13 +33,13 @@ public class ThingList {
     }
 
     // Print out each thing.
-      // (SEEMS LIKE A NICE PRINTALL() METHOD CALL WOULD WORK HERE)
-      // (SEEMS LIKE A toString() METHOD IN THE CLASS WOULD ALSO BE NICE)
-      public void printAll(){
+    // (SEEMS LIKE A NICE PRINTALL() METHOD CALL WOULD WORK HERE)
+    // (SEEMS LIKE A toString() METHOD IN THE CLASS WOULD ALSO BE NICE)
+    public void printAll(){
       for( Node currThing = head; currThing != null; currThing = currThing.next )
         System.out.println(currThing.data);
 
       System.out.println("done");
       System.out.flush();
-      }
+    }
 }
