@@ -10,7 +10,7 @@ public class ThingList {
         Node  next;
     }
 
-    public void addNode(Thing data){
+    public void addThing(Thing data){
         Node newNode = new Node();
         newNode.data = data;
         newNode.next = head;

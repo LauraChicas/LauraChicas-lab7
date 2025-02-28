@@ -61,16 +61,16 @@ public class DotChaser {
         // Add a typeA thing to the list.
         // (GEE, THAT'S A LOT OF CODE FOR JUST CREATING ONE THING)
         Thing typeA = new TypeA(45, 50);
-        thing.addNode(typeA);
+        thing.addThing(typeA);
         
 
         // Add a typeB thing to the list
         Thing typeB = new TypeB(55, 50);
-        thing.addNode(typeB);
+        thing.addThing(typeB);
         
         //we create a typeC thing to the list
         Thing typeC = new TypeC(65, 50);
-        thing.addNode(typeC);
+        thing.addThing(typeC);
       }
 
       // Print out each thing.
